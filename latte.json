@@ -1,21 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-        "os": "#ACB0BE",
-        "closer": "p:os",
-        "pink": "#f5bf0e",
-        "lavender": "#B4BEFE",
-        "blue":  "#89B4FA"
+    "os": "#ACB0BE",
+    "closer": "p:os",
+    "pink": "#f5bf0e",
+    "lavender": "#B4BEFE",
+    "blue": "#89B4FA"
   },
   "blocks": [
     {
       "alignment": "left",
       "segments": [
         {
-          "foreground": "p:os",
-          "style": "plain",
-          "template": "{{.Icon}} ",
-          "type": "os"
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "template": "  {{ .Full }} "
         },
         {
           "foreground": "p:blue",
